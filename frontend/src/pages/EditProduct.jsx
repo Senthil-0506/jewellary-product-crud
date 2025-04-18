@@ -105,7 +105,7 @@ const EditProduct = () => {
         <input
           type="date"
           name="manufactureDate"
-          value={product.manufactureDate?.substring(0, 10)} // only date part
+          value={product.manufactureDate?.substring(0, 10)} 
           onChange={handleChange}
           required
         />
