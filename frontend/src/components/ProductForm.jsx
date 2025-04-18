@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "../axios";
-import "./ProductForm.css"; // Custom styles
+import "./ProductForm.css"; 
 
 const ProductForm = () => {
   const [formData, setFormData] = useState({
@@ -48,7 +48,7 @@ const ProductForm = () => {
         <h2 className="text-center mb-4">Add New Product</h2>
         <form onSubmit={handleSubmit}>
           <div className="form-row">
-            {/* Row 1: Product Name, Price, Stock */}
+           
             <div className="form-column">
               <div className="form-group">
                 <label htmlFor="name">Product Name</label>
@@ -94,7 +94,7 @@ const ProductForm = () => {
           </div>
 
           <div className="form-row">
-            {/* Row 2: Description, Category, Image */}
+          
             <div className="form-column">
               <div className="form-group">
                 <label htmlFor="description">Description</label>
