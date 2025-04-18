@@ -1,0 +1,88 @@
+/* src/pages/Login.css */
+
+.login-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .login-card {
+    background-color: #fff;
+    min-width: 320px;
+    max-width: 480px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-title {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: #444;
+  }
+  
+  .form-group input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fff;   /* White input background */
+    color: #000;              /* Black text */
+    transition: border-color 0.2s ease;
+  }
+  
+  .form-group input:focus {
+    border-color: #ff9900;
+    outline: none;
+  }
+  
+  .btn-submit {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-submit:hover {
+    background-color: #e68a00;
+  }
+  
+  .redirect-text {
+    margin-top: 16px;
+    text-align: center;
+    color: #555;
+  }
+  
+  .redirect-text span {
+    color: #007bff;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .redirect-text span:hover {
+    text-decoration: underline;
+  }
+  

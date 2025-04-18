@@ -1,0 +1,28 @@
+/* AddProduct Wrapper - Page Background */
+.add-product-wrapper {
+  background: linear-gradient(135deg, #f0f4f8, #e1ecf4);/* Light grey background color for the page */
+  background-image: url('path_to_your_image.jpg'); /* Optionally, you can use an image background */
+  background-size: cover;
+  background-position: center;
+  min-height: 80vh; /* Ensures the background covers the full height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* AddProduct Card - Styling for the form container */
+.add-product-card {
+  padding: 2rem;
+  background-color: #fff; /* White background for the form card */
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  /* Set max-width to control the card size */
+}
+
+.add-product-card h2 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
