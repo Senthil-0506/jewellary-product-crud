@@ -1,4 +1,4 @@
-/* Navbar container */
+
 .navbar {
   background-color: #fff;
   padding: 1rem 2rem;
@@ -8,7 +8,7 @@
   z-index: 1000;
 }
 
-/* Flex container for brand + nav */
+
 .navbar-container {
   display: flex;
   align-items: center;
@@ -16,7 +16,7 @@
   flex-wrap: wrap;
 }
 
-/* Brand */
+
 .navbar-brand {
   font-size: 1.8rem;
   font-weight: bold;
@@ -28,7 +28,7 @@
   color: #ff9800;
 }
 
-/* Toggler: only on mobile */
+
 .navbar-toggler {
   display: none;
   font-size: 2rem;
@@ -38,7 +38,7 @@
   color: #333;
 }
 
-/* Nav links */
+
 .nav-links {
   display: flex;
   align-items: center;
@@ -63,7 +63,7 @@
   color: #ff9800;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .navbar-toggler {
     display: block;
